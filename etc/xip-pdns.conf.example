@@ -31,3 +31,9 @@ XIP_TTL=3600
 XIP_MX_RECORDS=(
     "10"	"mail.mousqueton.io"
   )
+
+# These are the TXT records for your domain.  IF YOU'RE NOT SURE,
+# don't set it at at all (comment it out)--it defaults to no
+XIP_TXT_RECORDS=(
+  "google-site-verification=cY2Qo-e_0E0Xh0Bb_uwj1TH2pn0AoyBwbMJNZysGcBk"
+ )
