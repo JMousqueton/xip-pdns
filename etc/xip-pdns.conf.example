@@ -20,3 +20,14 @@ XIP_NS_ADDRESSES=( "51.91.121.80" )
 
 # How long responses should be cached, in seconds.
 XIP_TTL=3600
+
+# These are the MX records for your domain.  IF YOU'RE NOT SURE,
+# don't set it at at all (comment it out)--it defaults to no
+# MX records.
+# XIP_MX_RECORDS=(
+#   "10"  "mx.xip.ninja"
+#   "20"  "mx2.xip.ninja"
+# )
+XIP_MX_RECORDS=(
+    "10"	"mail.mousqueton.io"
+  )
