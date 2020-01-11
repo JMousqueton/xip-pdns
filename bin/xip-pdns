@@ -5,7 +5,7 @@ shopt -s nocasematch
 #
 # Configuration
 #
-XIP_DOMAIN="xip.test"
+XIP_DOMAIN="xip.ninja"
 XIP_ROOT_ADDRESSES=( "127.0.0.1" )
 XIP_V6_ROOT_ADDRESES=( "::1" )
 XIP_NS_ADDRESSES=( "127.0.0.1" )
@@ -161,6 +161,13 @@ answer_mx_query() {
     shift 2
     done
   }
+  
+ answer_txt_query() {
+    local address
+    for text in "${XIP_TXT_RECORDS[@]}"; do
+      send_answer "TXT" "$text"
+    done
+  }
 
 answer_subdomain_a_query_for() {
   local type="$1"
@@ -204,6 +211,10 @@ while read_query; do
       
       if qtype_is "MX"; then
         answer_mx_query
+      fi
+      
+      if qtype_is "TXT"; then
+        answer_txt_query
       fi
 
     elif qtype_is "A"; then
