@@ -1,9 +1,10 @@
 # xip-pdns
 
 - based on [xip.io](https://github.com/basecamp/xip-pdns)
-- Add AAAA record 
+- Add support for IPv6 record 
 - Remove Base36  
 - Add support of dash pattern (you can now resolve 192-168-0-1.xip.ninja)
+- Add top-level AAAA Record 
 
 ## Basis
 This is a piped backend provider using [PowerDNS](http://powerdns.com/) powering [xip.ninja](https://xip.ninja/).
