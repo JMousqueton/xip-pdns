@@ -27,6 +27,8 @@ Open /etc/powerdns/pdns.conf and make these adjustments.
 launch=pipe
 pipe-command=/path/to/xip-pdns/bin/xip-pdns /path/to/xip-pdns/etc/xip-pdns.conf
 ```
+
+#### Adjust xip-pdns configuration 
 Rename xip-pdns.conf.example → xip.pdns.conf and make adjustments to the following environment variables:
 
 | Variable | Example | Description |
