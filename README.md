@@ -40,7 +40,7 @@ Rename xip-pdns.conf.example → xip.pdns.conf and make adjustments to the follo
 | XIP_TIMESTAMP | 2020010912 | SOA serial number |
 | XIP_TTL | 3600 | TTL of all responses |
 | XIP_MX_RECORDS | "10" "mail.xip.ninja" | The MX records for the domain | 
-| XIP_TXT_RECORDS | "some text" | TXT records for your domain |
+| XIP_TXT_RECORDS | "some text" | the TXT records for the domain |
 
 #### Application
 This will only respond to dns requests that end in xip.ninja.
