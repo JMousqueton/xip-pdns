@@ -5,6 +5,7 @@
 - Remove Base36  
 - Add support of dash pattern (you can now resolve 192-168-0-1.xip.ninja)
 - Add top-level AAAA Record 
+- Add MX and TXT record 
 
 ## Basis
 This is a piped backend provider using [PowerDNS](http://powerdns.com/) powering [xip.ninja](https://xip.ninja/).
