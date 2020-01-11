@@ -42,12 +42,12 @@ Rename xip-pdns.conf.example → xip.pdns.conf and make adjustments to the follo
 | XIP_MX_RECORDS | "10" "mail.xip.ninja" | The MX records for the domain | 
 | XIP_TXT_RECORDS | "some text" | the TXT records for the domain |
 
-#### Application
+### Application
 This will only respond to dns requests that end in xip.ninja.
 
 Effectively if you ask for 1.2.3.4.xip.ninja it will return 1.2.3.4 as the IP address. 
 
-#### More information 
+### More information 
 
 Visit [xip.ninja](https://xip.ninja/). 
 
