@@ -1,0 +1,14 @@
+sudo: required
+
+services:
+  - docker
+
+branches:
+  only:
+    - Docker
+
+install:
+  - docker build -t jmousqueton/xip-ninja .
+
+script:
+  - docker run jmousqueton/xip-ninja
