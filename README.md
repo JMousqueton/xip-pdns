@@ -1,4 +1,4 @@
-# xip-pdns
+# xip-ninja
 
 - based on [xip.io](https://github.com/basecamp/xip-pdns)
 - Add support for IPv6 record 
