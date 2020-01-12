@@ -58,3 +58,6 @@ For 🇫🇷 visit [my blog post](https://www.julienmousqueton.fr/un-enregistrem
 ## :scroll: License
 
 [MIT][license] © [Julien Mousqueton][website]
+
+[license]: https://github.com/JMousqueton/xip.ninja/blob/master/LICENSE
+[website]: https://www.julienmousqueton.fr
