@@ -1,5 +1,8 @@
 [![xip-ninja](https://raw.githubusercontent.com/JMousqueton/xip.ninja/master/logo-xip-ninja.png)](#)
 
+[![Build Status](https://travis-ci.org/jmousqueton/xip.ninja.svg?branch=master)](https://travis-ci.org/jmousqueton/xip.ninja)
+[![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/jmousqueton/xip.ninja/blob/master/LICENSE)
+
 # xip-ninja
 
 - based on [xip.io](https://github.com/basecamp/xip-pdns)
