@@ -1,4 +1,4 @@
-[![xip-ninja](https://xip.ninja/xip.png)](#)
+[![xip-ninja](https://raw.githubusercontent.com/JMousqueton/xip.ninja/master/logo-xip-ninja.png)](#)
 
 # xip-ninja
 
