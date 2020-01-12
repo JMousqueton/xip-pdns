@@ -13,4 +13,4 @@ install:
   - docker build -t jmousqueton/xip-ninja .
 
 script:
-  - docker run jmousqueton/xip-ninja
+  - docker run --rm jmousqueton/xip-ninja
