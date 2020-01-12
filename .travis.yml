@@ -15,4 +15,3 @@ install:
 script:
   - docker run -d jmousqueton/xip-ninja
   - docker ps
-  - docker stop jmousqueton/xip-ninja
