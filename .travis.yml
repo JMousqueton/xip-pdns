@@ -7,7 +7,7 @@ services:
 
 branches:
   only:
-    - Master
+    - master
 
 install:
   - docker build -t jmousqueton/xip-ninja .
