@@ -1,5 +1,3 @@
-![xip.ninja](https://xip.ninja/xip.png)
-
 # xip-pdns
 
 - based on [xip.io](https://github.com/basecamp/xip-pdns)
