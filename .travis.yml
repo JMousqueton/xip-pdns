@@ -1,0 +1,17 @@
+dist: bionic
+
+language: go
+
+services:
+  - docker
+
+branches:
+  only:
+    - Master
+
+install:
+  - docker build -t jmousqueton/xip-ninja .
+
+script:
+  - docker run -d jmousqueton/xip-ninja
+  - docker ps
