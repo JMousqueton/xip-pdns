@@ -14,7 +14,7 @@ This is a piped backend provider using [PowerDNS](http://powerdns.com/) powering
 
 ## Installation
 
-#### Install powerdns
+#### :cloud: Install powerdns
 ```
 sudo apt install pdns-server
 sudo apt install pdns-backend-pipe
@@ -22,7 +22,7 @@ sudo apt install pdns-backend-pipe
 ### Pull down source
 Clone this git repo to somewhere accessible
 
-#### Adjust pdns configuration to use a pipe backend
+#### :clipboard: Adjust pdns configuration to use a pipe backend
 Open /etc/powerdns/pdns.conf and make these adjustments.
 
 ```
@@ -30,7 +30,7 @@ launch=pipe
 pipe-command=/path/to/xip-pdns/bin/xip-pdns /path/to/xip-pdns/etc/xip-pdns.conf
 ```
 
-#### Adjust xip-pdns configuration 
+#### :clipboard: Adjust xip-pdns configuration 
 Rename xip-pdns.conf.example → xip.pdns.conf and make adjustments to the following environment variables:
 
 | Variable | Example | Description |
@@ -49,8 +49,12 @@ This will only respond to dns requests that end in xip.ninja.
 
 Effectively if you ask for 1.2.3.4.xip.ninja it will return 1.2.3.4 as the IP address. 
 
-### More information 
+### :memo: More information 
 
 Visit [xip.ninja](https://xip.ninja/). 
 
 For 🇫🇷 visit [my blog post](https://www.julienmousqueton.fr/un-enregistrement-dns-sans-nom-de-domaine) 
+
+## :scroll: License
+
+[MIT][license] © [Julien Mousqueton][website]
