@@ -14,6 +14,7 @@
 
 ## Basis
 This is a piped backend provider using [PowerDNS](http://powerdns.com/) powering [xip.ninja](https://xip.ninja/).
+
 [xip.ninja](https://xip.ninja/) is a magic domain name that provides wildcard DNS for any IP address.
 
 ## Installation
