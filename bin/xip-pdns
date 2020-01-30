@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
+# This file:
+#
+#  - PowerDNS helper for xip.ninja service 
+#
+# The MIT License (MIT)
+# Copyright (c) 2020 Julien Mousqueton and contributors
+# You are not obligated to bundle the LICENSE file with your b3bp projects as long
+# as you leave these references intact in the header comments of your source files.
 set -e
 shopt -s nocasematch
 
@@ -15,7 +23,6 @@ XIP_TTL=300
 if [ -a "$1" ]; then
   source "$1"
 fi
-
 
 #
 # Protocol helpers
@@ -62,9 +69,8 @@ log() {
   printf "[xip-pdns:$$] %s\n" "$@" >&2
 }
 
-
 #
-# xip.io domain helpers
+# xip.ninja domain helpers
 #
 XIP_DOMAIN_PATTERN="(^|\.)${XIP_DOMAIN//./\.}\$"
 NS_SUBDOMAIN_PATTERN="^ns-([0-9]+)\$"
