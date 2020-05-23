@@ -65,12 +65,6 @@ Visit [xip.ninja](https://xip.ninja/).
 
 For 🇫🇷 visit [my blog post](https://www.julienmousqueton.fr/un-enregistrement-dns-sans-nom-de-domaine)
 
-## :scroll: License
-
-[MIT][license] © [Julien Mousqueton][website]
-
-[license]: https://github.com/JMousqueton/xip.ninja/blob/master/LICENSE
-[website]: https://www.julienmousqueton.fr
 
 ## Contributors
 
@@ -82,4 +76,9 @@ For 🇫🇷 visit [my blog post](https://www.julienmousqueton.fr/un-enregistrem
 
 [//]: contributor-faces
 
-[sstephenson](https://github.com/sstephenson)
+## :scroll: License
+
+[MIT][license] © [Julien Mousqueton][website]
+
+[license]: https://github.com/JMousqueton/xip.ninja/blob/master/LICENSE
+[website]: https://www.julienmousqueton.fr
