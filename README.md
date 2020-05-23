@@ -66,7 +66,7 @@ Visit [xip.ninja](https://xip.ninja/).
 For 🇫🇷 visit [my blog post](https://www.julienmousqueton.fr/un-enregistrement-dns-sans-nom-de-domaine)
 
 
-## Contributors
+## :+1: Contributors
 
 [//]: contributor-faces
 
