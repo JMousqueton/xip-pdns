@@ -9,9 +9,9 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
 RUN rm -f /etc/powerdns/pdns.d/*
 
 # install our source and powerdns backend configurations
-ADD bin/xip-pdns /usr/local/bin/xip-pdns
-ADD etc/xip-pdns.backend.conf.example /etc/powerdns/pdns.d/xip.conf
-ADD etc/xip-pdns.conf.example /etc/xip-pdns.conf
+COPY bin/xip-pdns /usr/local/bin/xip-pdns
+COPY etc/xip-pdns.backend.conf.example /etc/powerdns/pdns.d/xip.conf
+COPY etc/xip-pdns.conf.example /etc/xip-pdns.conf
 
 # expose dns ports
 EXPOSE 53/udp 53/tcp
